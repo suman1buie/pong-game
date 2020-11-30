@@ -1,0 +1,80 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to top, #f77062, #fe5196);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  height: 85vh;
+  width: 80vw;
+  background-color: #1a0d51;
+  border-radius: 10px;
+}
+
+.ball {
+  top: 45vh;
+  left: 45vw;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #fe5196;
+  position: fixed;
+}
+
+.life {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  position: fixed;
+  background-color: #b4d61c;
+}
+.l1 {
+  top: 8vh;
+  left: 25vw;
+}
+.l2 {
+  top: 8vh;
+  left: 27vw;
+}
+.l3 {
+  top: 8vh;
+  left: 29vw;
+}
+
+.r1 {
+  top: 8vh;
+  right: 26vw;
+}
+.r2 {
+  top: 8vh;
+  right: 28vw;
+}
+.r3 {
+  top: 8vh;
+  right: 30vw;
+}
+
+.paddel {
+  height: 150px;
+  width: 15px;
+  background-color: #fe4197;
+  border-radius: 5px;
+  position: fixed;
+}
+
+.left {
+  top: 40vh;
+  left: 12vw;
+}
+.right {
+  top: 40vh;
+  right: 12vw;
+}
